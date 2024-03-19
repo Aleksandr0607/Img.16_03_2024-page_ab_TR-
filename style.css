@@ -1,63 +1,99 @@
-*{margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-text-decoration: none;
-list-style-type: none;
-font-family: "Rubik", sans-serif;
-font-style: normal;
-color: white;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  color: white;
 }
-body{
-    background-image: url(img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: center; */
+body {
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
 }
-.dark{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.349);
-
-
+.dark {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.349);
 }
-.container{
-    width: 90%;
-    margin: 0 auto;
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
-.box{
-    width: 300px;
-    margin: 50px auto;
+.box {
+  width: 300px;
+  margin: 50px auto;
 }
-.lamp{
-    padding: 3px;
-    border: 13px double gray  ;
-    border-radius: 2px;
-    box-shadow:  3px 3px red, -1em 0 .4em olive;;
-  }
+.lamp {
+  padding: 3px;
+  border: 13px double gray;
+  border-radius: 2px;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+}
 .search_icon,
 .logo {
-    cursor: pointer;
+  cursor: pointer;
 }
-header,.nav {
+header,
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav li {
+  margin-right: 50px;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+header {
+  padding-top: 99px;
+  height: 150px;
+  border-bottom: 1px solid white;
+}
+
+.nav li:hover {
+  color: brown;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+}
+.main_text {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 177px;
+  margin-bottom: 10px;
+}
+.second_text{
+    max-width: 527px;
+    font-size: 24px;
+    margin-bottom: 41px;
+}
+.btn {
+    background-color: red;
+
+}
+.exp_btn {
+    padding: 10px 30px;
+   
+}
+.social_icon {
+    width: 21px;
+    fill: #fff;
+    margin-right: 20px;
+    margin-top: 185px;
+    
+
+}
+.x:hover{
+    fill: red;
+    
+}
+.social_item_list{
     display: flex;
-    justify-content: space-between;
-    align-items: center;}
     
-    .nav li {
-        margin-right: 50px;
-        cursor: pointer;
-        padding: 10px 0;
-    }
-              
-    
-    header {
-        padding-top: 99px;
-        height: 150px;   
-         border-bottom: 1px solid white; }
-        
-    .nav li:hover{
-            color: brown;
-        border-bottom: 2px solid red;
-        border-top: 2px solid red;
-    }
-        
+}
+
