@@ -100,7 +100,8 @@ header {
   justify-content:space-between;
   }
 article_text_container{
-  width:300px;}
+      width: 300px;
+  }
 
 .details_btn {
   display:flex;
