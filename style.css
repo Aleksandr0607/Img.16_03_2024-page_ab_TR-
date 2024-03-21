@@ -101,6 +101,7 @@ header {
   }
 article_text_container{
       width:300px;
+  paddind: 24px , 35px;
   }
 
 .details_btn {
