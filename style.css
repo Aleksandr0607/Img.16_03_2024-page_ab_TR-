@@ -98,6 +98,7 @@ header {
   width: 300px;
   height: 209px;
 }
+/* і */
 
 .details_btn {
   display: flex;
@@ -120,9 +121,11 @@ header {
 .text_fol {
   font-size: 14px;
   padding: 24px 35px;
+
   background: linear-gradient(
     90.44deg,
     rgba(255, 255, 255, 0.5) -3.55%,
     rgba(255, 255, 255, 0) 120.14%
   );
+  backdrop-filter: blur(24px);
 }
