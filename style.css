@@ -94,6 +94,8 @@ header {
 .secondary_box {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  
 }
 .article_text_container {
   width: 300px;
