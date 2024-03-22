@@ -89,6 +89,7 @@ header {
 }
 .social_item_list {
   display: flex;
+  align-items: flex-end;
 }
 .secondary_box {
   display: flex;
