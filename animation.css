@@ -22,19 +22,17 @@
 }
 
 .tracking-in-expand-fwd {
-  animation: tracking-in-expand-fwd 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-expand-fwd 1.8s cubic-bezier(0.215, 0.61, 0.355, 1)
-    both;
+  animation: tracking-in-expand-fwd 1s linear;
+  animation: tracking-in-expand-fwd 1.8s linear;
 }
 @keyframes tracking-in-expand-fwd {
   0% {
-    letter-spacing: -0.5em;
-    transform: translateZ(-700px);
-    transform: translateZ(-700px);
-    opacity: 0;
+    letter-spacing: -0.2em;
+
+    opacity: 0.1;
   }
   40% {
-    opacity: 0.6;
+    opacity: 0.4;
   }
   100% {
     transform: translateZ(0);
@@ -44,8 +42,7 @@
 }
 
 .scale-in-hor-right {
-  animation: scale-in-hor-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: scale-in-hor-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-hor-right 1s ease-in-out;
 }
 
 @keyframes scale-in-hor-right {
@@ -79,5 +76,72 @@
 
   100% {
     transform: scale(1);
+  }
+}
+.article_text_container {
+  transition: all 1s linear;
+}
+.article_text_container:hover {
+  transform: scale(1.2);
+}
+.article_text_container:hover {
+  transform: scale(1.2);
+}
+.social_item_list li {
+  transition: all 1s linear;
+}
+.social_item_list li:hover {
+  transform: scale(1.8);
+}
+.nav li {
+  transition: all 1.5s linear;
+}
+.nav li:hover {
+  transform: scale(1.1);
+}
+.air {
+  position: absolute;
+  z-index: -1;
+  top: 300px;
+  left: 250px;
+  width: 150px;
+  animation: air_x;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition-delay: 1s;
+}
+
+@keyframes air_x {
+  0% {
+    transform: translateX(0px);
+    animation-timing-function: linear;
+  }
+  20% {
+    transform: translateY(20px) translateX(20px);
+    animation-timing-function: linear;
+  }
+  40% {
+    transform: translateY(50px) translateX(50px);
+    animation-timing-function: linear;
+  }
+  80% {
+    transform: translateY(80px) translateX(80px);
+    animation-timing-function: linear;
+  }
+
+  90% {
+    transform: translateY(50px) translateX(30px);
+    animation-timing-function: linear;
+  }
+  95% {
+    transform: translateY(30px) translateX(10px);
+    animation-timing-function: linear;
+    animation-duration: 10s;
+  }
+  100% {
+    transform: translateX(0px);
+    animation-timing-function: linear;
+    animation-duration: 10s;
   }
 }
