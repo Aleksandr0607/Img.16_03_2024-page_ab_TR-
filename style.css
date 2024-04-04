@@ -9,6 +9,9 @@
   color: white;
 }
 .body_photo {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
   background-image: url(img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
