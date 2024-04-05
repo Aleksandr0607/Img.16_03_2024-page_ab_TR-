@@ -5,7 +5,7 @@
 
 @keyframes color-change-5x {
   0% {
-    background:	#7c0303;
+    background: #7c0303;
   }
   25% {
     background: #794006;
@@ -104,12 +104,11 @@
   z-index: -1;
   top: 300px;
   left: 250px;
-  width: 150px;
+  width: 140px;
   animation: air_x;
   animation-duration: 40s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
- 
 }
 
 @keyframes air_x {
@@ -141,6 +140,50 @@
   }
   100% {
     transform: translateX(0px);
+    animation-timing-function: linear;
+    animation-duration: 10s;
+  }
+}
+.air_2 {
+  position: absolute;
+  z-index: -1;
+  top: 20%;
+  right: 10%;
+  width: 80px;
+  animation: air_2;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes air_2 {
+  0% {
+    transform: translateX(0px);
+    animation-timing-function: linear;
+  }
+  18% {
+    transform: translateY(-15px) translateX(-15px);
+    animation-timing-function: linear;
+  }
+  35% {
+    transform: translateY(-25px) translateX(-25px);
+    animation-timing-function: linear;
+  }
+  48% {
+    transform: translateY(-40px) translateX(-40px);
+    animation-timing-function: linear;
+  }
+
+  69% {
+    transform: translateY(-25px) translateX(-20px);
+    animation-timing-function: linear;
+  }
+  82% {
+    transform: translateY(-10px) translateX(-5px);
+    animation-timing-function: linear;
+    animation-duration: 10s;
+  }
+  100% {
+    transform: translateY(0) translateX(0);
     animation-timing-function: linear;
     animation-duration: 10s;
   }
