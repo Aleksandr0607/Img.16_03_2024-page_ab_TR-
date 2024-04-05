@@ -1,23 +1,23 @@
 .color-change-5x:hover {
-  -webkit-animation: color-change-5x 8s linear infinite alternate both;
-  animation: color-change-5x 8s easy infinite alternate both;
+  -webkit-animation: color-change-5x 4s linear infinite alternate both;
+  animation: color-change-5x 4s easy infinite alternate both;
 }
 
 @keyframes color-change-5x {
   0% {
-    background: #19dcea;
+    background:	#7c0303;
   }
   25% {
-    background: #b22cff;
+    background: #794006;
   }
   50% {
-    background: #ea2222;
+    background: #8e620b;
   }
   75% {
-    background: #f5be10;
+    background: #4d2600;
   }
   100% {
-    background: #3bd80d;
+    background: #7c0303;
   }
 }
 
@@ -91,7 +91,7 @@
   transition: all 1s linear;
 }
 .social_item_list li:hover {
-  transform: scale(1.8);
+  transform: scale(1.4);
 }
 .nav li {
   transition: all 1.5s linear;
@@ -109,7 +109,7 @@
   animation-duration: 40s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  transition-delay: 1s;
+ 
 }
 
 @keyframes air_x {
@@ -117,24 +117,24 @@
     transform: translateX(0px);
     animation-timing-function: linear;
   }
-  20% {
+  18% {
     transform: translateY(20px) translateX(20px);
     animation-timing-function: linear;
   }
-  40% {
+  35% {
     transform: translateY(50px) translateX(50px);
     animation-timing-function: linear;
   }
-  80% {
+  48% {
     transform: translateY(80px) translateX(80px);
     animation-timing-function: linear;
   }
 
-  90% {
+  69% {
     transform: translateY(50px) translateX(30px);
     animation-timing-function: linear;
   }
-  95% {
+  82% {
     transform: translateY(30px) translateX(10px);
     animation-timing-function: linear;
     animation-duration: 10s;
