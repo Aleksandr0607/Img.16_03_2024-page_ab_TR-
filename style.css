@@ -61,9 +61,11 @@ header {
 }
 
 .nav li:hover {
-  color: brown;
-  border-bottom: 2px solid red;
-  border-top: 2px solid red;
+  color: rgb(245, 241, 241);
+  font-weight: 500;
+  border-top: 2px solid white;
+  transition: 1.5s;
+  scale: 1.1;
 }
 .main_text {
   font-size: 64px;

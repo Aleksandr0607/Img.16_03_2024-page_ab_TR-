@@ -96,8 +96,9 @@
 .nav li {
   transition: all 1.5s linear;
 }
-.nav li:hover {
-  transform: scale(1.1);
+.nav li,
+.logo:hover {
+  transform: scale(1.2);
 }
 .air {
   position: absolute;
