@@ -117,24 +117,24 @@
     transform: translateX(0px);
     animation-timing-function: linear;
   }
-  20% {
+  18% {
     transform: translateY(20px) translateX(20px);
     animation-timing-function: linear;
   }
-  40% {
+  35% {
     transform: translateY(50px) translateX(50px);
     animation-timing-function: linear;
   }
-  80% {
+  48% {
     transform: translateY(80px) translateX(80px);
     animation-timing-function: linear;
   }
 
-  90% {
+  69% {
     transform: translateY(50px) translateX(30px);
     animation-timing-function: linear;
   }
-  95% {
+  82% {
     transform: translateY(30px) translateX(10px);
     animation-timing-function: linear;
     animation-duration: 10s;
