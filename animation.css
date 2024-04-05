@@ -23,7 +23,7 @@
 
 .tracking-in-expand-fwd {
   animation: tracking-in-expand-fwd 1s linear;
-  animation: tracking-in-expand-fwd 1s linear;
+  animation: tracking-in-expand-fwd 1.8s linear;
 }
 @keyframes tracking-in-expand-fwd {
   0% {
@@ -42,7 +42,7 @@
 }
 
 .scale-in-hor-right {
-  animation: scale-in-hor-right 1s ease-in-out;
+  animation: scale-in-hor-right 1.8s ease-in-out;
 }
 
 @keyframes scale-in-hor-right {
