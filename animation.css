@@ -1,6 +1,6 @@
 .color-change-5x:hover {
-  -webkit-animation: color-change-5x 8s linear infinite alternate both;
-  animation: color-change-5x 8s easy infinite alternate both;
+  -webkit-animation: color-change-5x 4s linear infinite alternate both;
+  animation: color-change-5x 4s easy infinite alternate both;
 }
 
 @keyframes color-change-5x {
