@@ -189,3 +189,24 @@
     animation-duration: 10s;
   }
 }
+
+.rain {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100vw;
+  background-image: url(img/water.png);
+  opacity: 0;
+  animation: rain_1 0.1s linear 90 1s;
+}
+
+@keyframes rain_1 {
+  0% {
+    background-position: -10% -10%;
+    opacity: 1;
+  }
+  100% {
+    background-position: 20% -10%;
+    opacity: 1;
+  }
+}
