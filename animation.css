@@ -42,7 +42,7 @@
 }
 
 .scale-in-hor-right {
-  animation: scale-in-hor-right 1s ease-in-out;
+  animation: scale-in-hor-right 1.8s ease-in-out;
 }
 
 @keyframes scale-in-hor-right {
